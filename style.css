@@ -1,0 +1,153 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Apply a background color and font family */
+body {
+    background-color: #f2f2f2;
+    font-family: 'Arial', sans-serif;
+
+}
+
+
+/* Style the verse and chorus containers */
+.verse, .chorus, .verse1 {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the verse and chorus headers */
+h2 {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Style the main text content */
+p {
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #121212;
+}
+
+/* Highlight important words in each verse */
+.verse strong {
+    font-weight: bold;
+    color: #b93737; /* Blue color for emphasis */
+    font-size: 100px;
+}
+
+.verse1 strong {
+    font-weight: bold;
+    color: #b93737; /* Blue color for emphasis */
+    font-size: 100px;
+}
+.chorus strong {
+    font-weight: bold;
+    color: #b93737; /* Blue color for emphasis */
+    font-size: 100px;
+}
+/* Style the chorus with a different background color */
+.chorus {
+    background-color: #ffd700; /* Gold background for chorus */
+}
+.verse1 {
+    background-color: #ffd700; /* Gold background for chorus */
+}
+
+/* Style the chorus header differently */
+.chorus h2 {
+    font-size: 28px;
+    color: hsl(0, 0%, 7%);
+    text-transform: uppercase;
+}
+
+/* Make the chorus text larger and bold */
+.chorus p {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #121212;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* CSS for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+    color: #f3f2f2;
+}
+
+/* Additional styles for the entire page (body) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+/* CSS for the image */
+img {
+    max-width: 10%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Center the image */
+    margin-left: 20px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 60px;
+}
+
+/* CSS for the paragraph text */
+.Info p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 20px auto;
+    text-align: left;
+    margin-left: 10px;
+}
+.Info h1 {
+    text-align: left;
+}
